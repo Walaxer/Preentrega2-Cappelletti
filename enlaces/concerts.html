@@ -3,32 +3,83 @@
     <head> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,  initial-scale=1.0"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <title> Bring me the horizon</title>
         <link rel="shortcut icon" href="../images/favicon.png">
-        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../CSS/styles.css">
     </head>
     <body>
-        <header><nav>
-        <img src="../images/BMTHlogo.jpg" alt="">
-        <h1>Bring Me The Horizon</h1>
-        <div><a href="../index.html">Home</a>
-        <a href="./songs.html">Songs</a>
-        <a href="concerts.html">Concerts</a>
-        <a href="./merch.html">Merch</a>
-        <a href="./about.html">About</a>
-        </nav>
-    </div>
-    </header>
-    <main>
-        <img src="../images/Conciertos.jpg" alt="">
-        <img src="../images/BMTHconcertfoto.jpg" alt="">
-    </main>
-    <footer>
-        <a href="https://music.apple.com/ar/artist/bring-me-the-horizon/121043936" target="_blank" title="AppleMusic"><img src="../images/applemusic.svg" alt=""></a>
-        <a href="https://open.spotify.com/intl-es/artist/1Ffb6ejR6Fe5IamqA5oRUF?si=TEARRIVZSCCcm6Sid5B-lA" target="_blank" title="Spotify"><img src="../images/spotify.svg" alt=""></a>
-        <a href="https://www.instagram.com/bringmethehorizon/?hl=en" target="_blank" title="Instagram"><img src="../images/instagram.svg" alt=""></a>
-        <a href="https://www.youtube.com/channel/UCAayZDDj3uom0QpSJiwLoUw" target="_blank" title="Youtube"><img src="../images/youtube.svg" alt=""></a>
-    </footer>
-
-    </body>
-</html>
+        <header> 
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand logo" href="../index.html"><img src="../images/BMTHlogo.jpg" alt="logo-bring-me-the-horizon"></a>
+                <button class="navbar-toggler border border-light-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 style: diaplay: flex; flex-direction: row;">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="/enlaces/songs.html">Songs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="../enlaces/concerts.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="../enlaces/merch.html">Merch</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="../enlaces/about.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+        </header>
+          <main>
+      
+          </main>
+          <footer>
+            <div class="accordion col-md-10 col-sm-6" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Esta página la maneja la banda?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>No, es una pagina fan de esta misma, la cual es manejada por personas ajenas a la banda.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Que metodos de pago aceptan?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                <p>Aceptamos Debito, Crédito, MercadoPago y Transferencia bancaria.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Sus producto son originales?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Si, todos nuestros productos fueron adquiridos de la pagina oficial de la banda.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </body>
+      </html>

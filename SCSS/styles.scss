@@ -1,0 +1,224 @@
+*{background-color: #090b0d;}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+h2 {     color: #E5E3E8;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align:center;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+
+}
+h1 {
+    color: #E5E3E8;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.logo{
+    text-align:center;
+}
+a {
+    font-family: 'Montserrat';
+    color: #E5E3E8;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+}
+a:hover {
+    background-color: #FF1E2D;
+    color: #090b0d;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20;
+    color: #E5E3E8;
+    
+}
+header{
+    padding: 50px 20px;
+    display: flex;
+    font-weight: bold;
+}
+footer{
+    text-align: right;
+
+}
+.informacion {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1.6fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "imagen parrafo parrafo"
+". . .";
+    }
+    .parrafo { grid-area: parrafo;
+        align-content: center;
+        padding-inline: 30%;}
+
+        .remera {
+            opacity: 0.7;
+        }
+        .buzo {
+            opacity: 0.7;
+        }
+        .remera2 {
+            opacity: 0.7;
+        }
+        .buzo2 {
+            opacity: 0.7;
+        }
+        .remera:hover {
+            opacity: 1;
+        }
+        .buzo:hover {
+            opacity: 1;
+        }
+        .remera2:hover {
+            opacity: 1;
+        }
+        .buzo2:hover {
+            opacity: 1;
+        }
+        .nav-item {
+            color: rgb(136, 0, 0);
+            border: rgb(136, 0, 0) solid 3px;
+            border-radius: 20%;
+            margin: 10px;
+            opacity: 0.5;
+            transform: scale(0.93, 0.93);
+            justify-content: center;
+        }
+        .nav-item:hover {
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+        main {
+            text-align: center;
+            margin: 3px;
+            padding: 3px;
+            flex-wrap: wrap;
+        }
+        main .biografia {
+            background-color: white;
+            width: 70%;
+        }
+        main .biografia p {
+            background-color: white;
+            width: 70%;
+        }
+        main {
+            display: flex;
+            text-align: center;
+            padding: 1rem;
+            flex-direction: column;
+        }
+
+        @media screen and (max-width: 480px) {
+        main {
+        display: flex;
+        text-align: center;
+        padding: 1rem;
+        flex-direction: column;
+        }
+        header {
+        flex-direction: column;
+        justify-content: center;
+        }
+        header img {
+        margin-bottom: 10px;
+        width: 150px;
+        height: 150px;
+        }
+        .remera {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .remera2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .remera {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .remera2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    }
+    @media screen and (min-width: 1024px) and (min-width: 1440px) {
+        .remera {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .remera2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .buzo2 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    }
+
+    .animate__animated.animate__bounceInRight {
+        --animate-duration: 0.5s;
+    }
+    :root {
+        --animate-duration: 700ms;
+        --animate-delay: 0.9s;
+    }
