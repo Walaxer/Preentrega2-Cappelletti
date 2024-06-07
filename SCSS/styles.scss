@@ -1,8 +1,22 @@
+@import "reseteo";
+
 *{background-color: #090b0d;}
 
 @font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+main{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    .parrafo { grid-area: parrafo;
+        align-content: center;
+        background-color:rgb(136, 0, 0) ;
+        width: 70%;
+    }
 }
 
 h2 {     color: #E5E3E8;
@@ -23,6 +37,8 @@ h1 {
 }
 .logo{
     text-align:center;
+    width: 50%;
+    height: 50%;
 }
 a {
     font-family: 'Montserrat';
@@ -35,12 +51,7 @@ a:hover {
     background-color: #FF1E2D;
     color: #090b0d;
 }
-p{
-    font-family: 'Montserrat';
-    font-size: 20;
-    color: #E5E3E8;
-    
-}
+
 header{
     padding: 50px 20px;
     display: flex;
@@ -49,6 +60,14 @@ header{
 footer{
     text-align: right;
 
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: $bordo;
+    text-align: center;
+    width: 200px;
 }
 .informacion {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -59,9 +78,6 @@ footer{
     "imagen parrafo parrafo"
 ". . .";
     }
-    .parrafo { grid-area: parrafo;
-        align-content: center;
-        padding-inline: 30%;}
 
         .remera {
             opacity: 0.7;
@@ -106,14 +122,6 @@ footer{
             padding: 3px;
             flex-wrap: wrap;
         }
-        main .biografia {
-            background-color: white;
-            width: 70%;
-        }
-        main .biografia p {
-            background-color: white;
-            width: 70%;
-        }
         main {
             display: flex;
             text-align: center;
@@ -137,88 +145,98 @@ footer{
         width: 150px;
         height: 150px;
         }
+        .menu { 
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        }
         .remera {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .remera2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
     }
     @media screen and (min-width: 768px) {
+        .imagen { 
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        }
         .remera {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .remera2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
     }
     @media screen and (min-width: 1024px) and (min-width: 1440px) {
+        .imagen { 
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        }
         .remera {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo {
-        width: 100px;
-        height: 100px;
+        width: 50%;;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .remera2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
         .buzo2 {
-        width: 100px;
-        height: 100px;
+        width: 50%;
+        height: 50%;
         display: flex;
         flex-wrap: wrap;
         }
-    }
-
-    .animate__animated.animate__bounceInRight {
-        --animate-duration: 0.5s;
-    }
-    :root {
-        --animate-duration: 700ms;
-        --animate-delay: 0.9s;
     }

@@ -1,4 +1,16 @@
 * {
+  background-color: black;
+  color: rgb(136, 0, 0);
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-family: "Playpen Sans", cursive;
+  text-decoration: none;
+}
+
+* {
   background-color: #090b0d;
 }
 
@@ -6,6 +18,19 @@
   font-family: "Montserrat";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
 }
+main {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+main .parrafo {
+  grid-area: parrafo;
+  align-content: center;
+  background-color: rgb(136, 0, 0);
+  width: 70%;
+}
+
 h2 {
   color: #E5E3E8;
   font-family: "Montserrat";
@@ -26,6 +51,8 @@ h1 {
 
 .logo {
   text-align: center;
+  width: 50%;
+  height: 50%;
 }
 
 a {
@@ -41,12 +68,6 @@ a:hover {
   color: #090b0d;
 }
 
-p {
-  font-family: "Montserrat";
-  font-size: 20;
-  color: #E5E3E8;
-}
-
 header {
   padding: 50px 20px;
   display: flex;
@@ -57,6 +78,15 @@ footer {
   text-align: right;
 }
 
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(136, 0, 0);
+  text-align: center;
+  width: 200px;
+}
+
 .informacion {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -64,12 +94,6 @@ footer {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "imagen parrafo parrafo" ". . .";
-}
-
-.parrafo {
-  grid-area: parrafo;
-  align-content: center;
-  padding-inline: 30%;
 }
 
 .remera {
@@ -126,16 +150,6 @@ main {
   flex-wrap: wrap;
 }
 
-main .biografia {
-  background-color: white;
-  width: 70%;
-}
-
-main .biografia p {
-  background-color: white;
-  width: 70%;
-}
-
 main {
   display: flex;
   text-align: center;
@@ -159,88 +173,98 @@ main {
     width: 150px;
     height: 150px;
   }
+  .menu {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .remera {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .remera2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 768px) {
+  .imagen {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .remera {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .remera2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1024px) and (min-width: 1440px) {
+  .imagen {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
   .remera {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .remera2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
   .buzo2 {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
   }
-}
-.animate__animated.animate__bounceInRight {
-  --animate-duration: 0.5s;
-}
-
-:root {
-  --animate-duration: 700ms;
-  --animate-delay: 0.9s;
 }/*# sourceMappingURL=styles.css.map */
